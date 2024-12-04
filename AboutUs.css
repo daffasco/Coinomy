@@ -1,0 +1,134 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background: linear-gradient(120deg, #302340 #1e0a34);
+    background-color: #302340;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+}
+
+/* Navbar */
+
+.navbar {
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffffcf;
+    box-shadow: -1px 3px 4px 1px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: -1px 3px 4px 1px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: -1px 3px 4px 1px rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 2em;
+    align-items: center;
+    height: 80px;
+
+}
+
+.ul-navbar {
+    display: flex;
+}
+
+.ul-navbar .li-navbar {
+    gap: 1rem;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .ul-navbar .li-navbar a {
+    text-decoration: none;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-weight: 100px;
+    transition: all;
+    transition-duration: 250ms;
+    border-bottom: 1px solid #302340(0, 0, 0, 0);
+    display: flex;
+}
+
+nav ul img {
+    padding-top: 100%;
+    display: flex;
+    position: fixed;
+}
+
+.navbar .ul-navbar .li-navbar a:hover {
+    color: #7b45d1;
+    border-bottom: 1px solid #7b45d1;
+}
+
+/* Navbar End */
+
+.container {
+    top: 2rem;
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #5a2a83;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.highlight {
+    color: #5a2a83;
+    font-weight: bold;
+}
+
+.about-section {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cta a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #5a2a83;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.cta a:hover {
+    background-color: #472066;
+}
