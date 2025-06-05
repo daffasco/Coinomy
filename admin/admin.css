@@ -1,0 +1,206 @@
+/* Custom CSS replacing Bootstrap for admin/index.php */
+
+/* Reset some default styles */
+body,
+h1,
+p,
+figure,
+blockquote,
+figcaption,
+table,
+th,
+td,
+a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body background and text color */
+body {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Navbar */
+/* nav.navbar {
+} */
+
+nav.navbar .container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav.navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Container */
+.container {
+    max-width: 1140px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 1rem;
+}
+
+/* Blockquote */
+figure blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #007bff;
+    padding-left: 15px;
+    margin-bottom: 0.5rem;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 1.5rem;
+}
+
+/* Button primary */
+a.btn-primary,
+a.btn-primary:visited {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+a.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Table wrapper for responsiveness */
+.table-wrapper {
+    overflow-x: auto;
+}
+
+/* Table styles */
+table.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #dee2e6;
+    margin-bottom: 1.5rem;
+}
+
+table.custom-table th,
+table.custom-table td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+table.custom-table th {
+    background-color: #e9ecef;
+    font-weight: 600;
+}
+
+/* Icons inside table links */
+table.custom-table a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+table.custom-table a:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar and layout styles */
+.flex-wrapper {
+   /* Remove flex layout */
+    display: flex;
+    min-height: 100vh;
+    background-color: #2e1f4f;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 100vh;
+    background-color: #2e1f4f;
+    color: white;
+    padding-top: 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    padding: 15px 20px;
+    border-left: 5px solid transparent;
+    transition: background-color 0.3s ease, border-left-color 0.3s ease;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+    background-color: #5a3e8a;
+    border-left-color: #fff;
+}
+
+.container {
+    margin-left: 180px;
+    padding: 20px 30px;
+    margin-top: 60px;
+    border-radius: 0;
+    color: #000;
+    box-sizing: border-box;
+    min-height: calc(100vh - 60px);
+    margin-top: 100px;
+    width: 100%;
+}
+
+/* Navbar adjustments */
+nav.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 180px;
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    z-index: 1100;
+    background-color: #2e1f4f;
+}
+
+nav.navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #007bff;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+thead td {
+    color: white;
+}

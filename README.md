@@ -1,3 +1,0 @@
-# Coinomy
-# Coinomy
-# Coinomy
